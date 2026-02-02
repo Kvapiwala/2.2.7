@@ -39,5 +39,9 @@ public class MediaLibRunner
     System.out.println("before test:" + newBook);
     myLib.testBook(newBook);
     System.out.println("after test:" + newBook);
+
+    Book newBook2 = new Book("Lord of the Rings", "Tolkien");
+    newBook.equals(newBook2);
+    
   }
 }
