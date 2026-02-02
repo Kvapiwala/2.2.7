@@ -60,4 +60,11 @@ public class Book
   public void setAuthor(String a) {
     author = a;
   }
+  public boolean equals(Book b) {
+    if (this.title.equals(b.title) || this.author.equals(b.author)) {
+      return true;
+    }
+    else return false;
+  
+  }
 }
